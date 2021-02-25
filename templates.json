@@ -1,0 +1,354 @@
+[
+    {
+        "template": "dockerfile",
+        "platform": "x86_64",
+        "language": "Dockerfile",
+        "source": "openfaas",
+        "description": "Classic Dockerfile template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "go",
+        "platform": "x86_64",
+        "language": "Go",
+        "source": "openfaas",
+        "description": "Classic Golang template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "java8",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "openfaas",
+        "description": "Java 8 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "java11",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "openfaas",
+        "description": "Java 11 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "java11-vert-x",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "openfaas",
+        "description": "Java 11 Vert.x template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "node12",
+        "platform": "x86_64",
+        "language": "NodeJS",
+        "source": "openfaas",
+        "description": "HTTP-based Node 12 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "php7",
+        "platform": "x86_64",
+        "language": "PHP",
+        "source": "openfaas",
+        "description": "Classic PHP 7 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "python3",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Classic Python 3.6 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "python3-dlrs",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "intel",
+        "description": "Deep Learning Reference Stack v0.4 for ML workloads",
+        "repo": "https://github.com/intel/stacks-templates-openfaas",
+        "official": "false"
+    },
+    {
+        "template": "ruby",
+        "platform": "x86_64",
+        "language": "Ruby",
+        "source": "openfaas",
+        "description": "Classic Ruby 2.5 template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "ruby-http",
+        "platform": "x86_64",
+        "language": "Ruby",
+        "source": "openfaas",
+        "description": "Ruby 2.4 HTTP template",
+        "repo": "https://github.com/openfaas/ruby-http",
+        "official": "true"
+    },
+    {
+        "template": "python27-flask",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 2.7 Flask template",
+        "repo": "https://github.com/openfaas/python-flask-template",
+        "official": "true"
+    },
+    {
+        "template": "python3-flask",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 3.7 Flask template",
+        "repo": "https://github.com/openfaas/python-flask-template",
+        "official": "true"
+    },
+    {
+        "template": "python3-flask-debian",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 3.7 Flask template based on Debian",
+        "repo": "https://github.com/openfaas/python-flask-template",
+        "official": "true"
+    },
+    {
+        "template": "python3-http",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 3.7 with Flask and HTTP",
+        "repo": "https://github.com/openfaas/python-flask-template",
+        "official": "true"
+    },
+    {
+        "template": "python3-http-debian",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 3.7 with Flask and HTTP based on Debian",
+        "repo": "https://github.com/openfaas/python-flask-template",
+        "official": "true"
+    },
+    {
+        "template": "golang-http",
+        "platform": "x86_64",
+        "language": "Go",
+        "source": "openfaas",
+        "description": "Golang HTTP template",
+        "repo": "https://github.com/openfaas/golang-http-template",
+        "official": "true"
+    },
+    {
+        "template": "golang-middleware",
+        "platform": "x86_64",
+        "language": "Go",
+        "source": "openfaas",
+        "description": "Golang Middleware template",
+        "repo": "https://github.com/openfaas/golang-http-template",
+        "official": "true"
+    },
+    {
+        "template": "python3-debian",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas",
+        "description": "Python 3 Debian template",
+        "repo": "https://github.com/openfaas/templates",
+        "official": "true"
+    },
+    {
+        "template": "powershell-template",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas-incubator",
+        "description": "Powershell Core Ubuntu:16.04 template",
+        "repo": "https://github.com/openfaas-incubator/powershell-template",
+        "official": "true"
+    },
+    {
+        "template": "powershell-http-template",
+        "platform": "x86_64",
+        "language": "Python",
+        "source": "openfaas-incubator",
+        "description": "Powershell Core HTTP Ubuntu:16.04 template",
+        "repo": "https://github.com/openfaas-incubator/powershell-http-template",
+        "official": "true"
+    },
+    {
+        "template": "rust",
+        "platform": "x86_64",
+        "language": "Rust",
+        "source": "booyaa",
+        "description": "Rust template",
+        "repo": "https://github.com/openfaas-incubator/openfaas-rust-template",
+        "official": "false"
+    },
+    {
+        "template": "crystal",
+        "platform": "x86_64",
+        "language": "Crystal",
+        "source": "tpei",
+        "description": "Crystal template",
+        "repo": "https://github.com/tpei/crystal_openfaas",
+        "official": "false"
+    },
+    {
+        "template": "vertx-native",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "pmlopes",
+        "description": "Eclipse Vert.x native image template",
+        "repo": "https://github.com/pmlopes/openfaas-vertx-native-template",
+        "official": "false"
+    },
+    {
+        "template": "swift",
+        "platform": "x86_64",
+        "language": "Swift",
+        "source": "affix",
+        "description": "Swift 4.2 Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "lua53",
+        "platform": "x86_64",
+        "language": "Lua",
+        "source": "affix",
+        "description": "Lua 5.3 Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "vala",
+        "platform": "x86_64",
+        "language": "Vala",
+        "source": "affix",
+        "description": "Vala Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "vala-http",
+        "platform": "x86_64",
+        "language": "Vala",
+        "source": "affix",
+        "description": "Non-Forking Vala Template",
+        "repo": "https://github.com/affix/openfaas-templates-affix/",
+        "official": "false"
+    },
+    {
+        "template": "quarkus-native",
+        "platform": "x86_64",
+        "language": "Java",
+        "source": "pmlopes",
+        "description": "Quarkus.io native image template",
+        "repo": "https://github.com/pmlopes/openfaas-quarkus-native-template",
+        "official": "false"
+    },
+    {
+        "template": "perl-alpine",
+        "platform": "x86_64",
+        "language": "Perl",
+        "source": "tmiklas",
+        "description": "Perl language template based on Alpine image",
+        "repo": "https://github.com/tmiklas/openfaas-perl-templates",
+        "official": "false"
+    },
+    {
+        "template": "crystal-http",
+        "platform": "x86_64",
+        "language": "Crystal",
+        "source": "koffeinfrei",
+        "description": "Crystal HTTP template",
+        "repo": "https://github.com/koffeinfrei/crystal-http-template",
+        "official": "false"
+    },
+    {
+        "template": "rust-http",
+        "platform": "x86_64",
+        "language": "Rust",
+        "source": "openfaas-incubator",
+        "description": "Rust HTTP template",
+        "repo": "https://github.com/openfaas-incubator/rust-http-template",
+        "official": "true"
+    },
+    {
+        "template": "bash-streaming",
+        "platform": "x86_64",
+        "language": "Bash",
+        "source": "openfaas-incubator",
+        "description": "Bash Streaming template",
+        "repo": "https://github.com/alexellis/openfaas-streaming-templates",
+        "official": "true"
+    },
+    {
+        "template": "cobol",
+        "platform": "x86_64",
+        "language": "COBOL",
+        "source": "devries",
+        "description": "COBOL Template",
+        "repo": "https://github.com/devries/openfaas-cobol-template",
+        "official": "false"
+    },
+    {
+        "template": "aspnet",
+        "platform": "x86_64",
+        "language": "C#",
+        "source": "goncalo-oliveira",
+        "description": "ASPNET Functions C# template",
+        "repo": "https://github.com/goncalo-oliveira/faas-aspnet-template",
+        "official": "false"
+    },
+    {
+        "template": "aspnet-fsharp",
+        "platform": "x86_64",
+        "language": "F#",
+        "source": "goncalo-oliveira",
+        "description": "ASPNET Functions F# template",
+        "repo": "https://github.com/goncalo-oliveira/faas-aspnet-template",
+        "official": "false"
+    },
+    {
+        "template": "aspnet-controller",
+        "platform": "x86_64",
+        "language": "C#",
+        "source": "goncalo-oliveira",
+        "description": "ASPNET Functions C# controller template",
+        "repo": "https://github.com/goncalo-oliveira/faas-aspnet-template",
+        "official": "false"
+    },
+    {
+        "template": "typescript",
+        "platform": "x86_64",
+        "language": "TypeScript",
+        "source": "goncalo-oliveira",
+        "description": "TypeScript + Node 14 + Express template",
+        "repo": "https://github.com/goncalo-oliveira/faas-typescript-template",
+        "official": "false"
+    },
+    {
+        "template": "typescript-fastify",
+        "platform": "x86_64",
+        "language": "TypeScript",
+        "source": "goncalo-oliveira",
+        "description": "TypeScript + Node 14 + Fastify template",
+        "repo": "https://github.com/goncalo-oliveira/faas-typescript-template",
+        "official": "false"
+    }
+]
+
